@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07ed96a1-c794-442b-948c-020b23ae6a42" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user.cmd.api/src/main/java/com/umang345/user/cmd/api/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/user.cmd.api/src/main/java/com/umang345/user/cmd/api/UserCommandApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user.cmd.api/src/test/java/com/umang345/user/cmd/api/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/user.cmd.api/src/test/java/com/umang345/user/cmd/api/UserCommandApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user.query.api/src/main/java/com/umang345/user/query/api/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/user.query.api/src/main/java/com/umang345/user/query/api/UserQueryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user.query.api/src/test/java/com/umang345/user/query/api/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/user.query.api/src/test/java/com/umang345/user/query/api/UserQueryApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.cmd.api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user.cmd.api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user.core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.query.api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user.query.api/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

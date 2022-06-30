@@ -25,6 +25,19 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.axonframework/axon-spring-boot-starter -->
+		<dependency>
+			<groupId>org.axonframework</groupId>
+			<artifactId>axon-spring-boot-starter</artifactId>
+			<version>4.5.12</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.axonframework.extensions.mongo/axon-mongo -->
+		<dependency>
+			<groupId>org.axonframework.extensions.mongo</groupId>
+			<artifactId>axon-mongo</artifactId>
+			<version>4.5</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>

@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.umang345</groupId>
 	<artifactId>user.query.api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>user.query.api</name>
 	<description>User Query API Project</description>
 	<properties>
@@ -28,6 +28,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.axonframework/axon-spring-boot-starter -->
+		<dependency>
+			<groupId>org.axonframework</groupId>
+			<artifactId>axon-spring-boot-starter</artifactId>
+			<version>4.5.12</version>
 		</dependency>
 
 		<dependency>
