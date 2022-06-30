@@ -7,7 +7,7 @@
     <groupId>com.umang345</groupId>
     <artifactId>user-management</artifactId>
     <version>1.0</version>
-    <packaging>pon</packaging>
+    <packaging>pom</packaging>
 
     <modules>
         <module>user.cmd.api</module>
