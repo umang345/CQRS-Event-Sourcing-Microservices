@@ -1,0 +1,15 @@
+package com.umang345.user.cmd.api.commands;
+
+import com.umang345.user.core.models.User;
+import lombok.Builder;
+import lombok.Data;
+import org.axonframework.modelling.command.TargetAggregateIdentifier;
+
+@Data
+@Builder
+public class RegisterUserCommand
+{
+    @TargetAggregateIdentifier
+    private String id;
+    private User user;
+}
