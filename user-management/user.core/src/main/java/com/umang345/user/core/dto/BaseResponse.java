@@ -1,4 +1,4 @@
-package com.umang345.user.cmd.api.dto;
+package com.umang345.user.core.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

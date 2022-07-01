@@ -1,8 +1,7 @@
 package com.umang345.user.cmd.api.controllers;
 
 import com.umang345.user.cmd.api.commands.UpdateUserCommand;
-import com.umang345.user.cmd.api.dto.BaseResponse;
-import com.umang345.user.cmd.api.dto.RegisterUserResponse;
+import com.umang345.user.core.dto.BaseResponse;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
