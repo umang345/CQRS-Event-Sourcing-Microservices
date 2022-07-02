@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07ed96a1-c794-442b-948c-020b23ae6a42" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/user-management.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/user-management.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user.cmd.api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user.cmd.api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user.cmd.api/src/main/java/com/umang345/user/cmd/api/UserCommandApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user.cmd.api/src/main/java/com/umang345/user/cmd/api/UserCommandApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.cmd.api/src/main/java/com/umang345/user/cmd/api/controllers/RegisterUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user.cmd.api/src/main/java/com/umang345/user/cmd/api/controllers/RegisterUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.cmd.api/src/main/java/com/umang345/user/cmd/api/controllers/RemoveUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user.cmd.api/src/main/java/com/umang345/user/cmd/api/controllers/RemoveUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.cmd.api/src/main/java/com/umang345/user/cmd/api/controllers/UpdateUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user.cmd.api/src/main/java/com/umang345/user/cmd/api/controllers/UpdateUserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user.cmd.api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user.cmd.api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.oAuth2.0/src/main/java/com/umang345/user/oAuth20/configuration/AuthServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user.oAuth2.0/src/main/java/com/umang345/user/oAuth20/configuration/AuthServerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user.query.api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user.query.api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user.query.api/src/main/java/com/umang345/user/query/api/UserQueryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user.query.api/src/main/java/com/umang345/user/query/api/UserQueryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.query.api/src/main/java/com/umang345/user/query/api/controllers/UserLookupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user.query.api/src/main/java/com/umang345/user/query/api/controllers/UserLookupController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user.query.api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user.query.api/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -32,12 +42,22 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
+  <component name="ProjectId" id="2BKDiVnLXggt9jmMnzFYYqwQFph" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.umang345.user.query.api.config" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.umang345.user.cmd.api.security" />
+      <recent name="com.umang345.user.core.models" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,6 +70,54 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Application.UserQueryApplication">
+    <configuration name="OAuth2Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.umang345.user.oAuth20.OAuth2Application" />
+      <module name="user.oAuth2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.umang345.user.oAuth20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserCommandApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.umang345.user.cmd.api.UserCommandApplication" />
+      <module name="user.cmd.api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.umang345.user.cmd.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserQueryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.umang345.user.query.api.UserQueryApplication" />
+      <module name="user.query.api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.umang345.user.query.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UserQueryApplication" />
+        <item itemvalue="Application.UserCommandApplication" />
+        <item itemvalue="Application.OAuth2Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
@@ -76,7 +144,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
