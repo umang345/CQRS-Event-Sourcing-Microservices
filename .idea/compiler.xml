@@ -6,18 +6,39 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bank-account" />
+        <module name="user.oAuth2.0" />
+        <module name="bankacc.core" />
+        <module name="user.core" />
         <module name="api-gateway" />
+        <module name="user.cmd.api" />
+        <module name="user.query.api" />
+        <module name="bankacc.cmd.api" />
+        <module name="bankacc.query.api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-gateway" target="11" />
       <module name="bank-account" target="1.5" />
+      <module name="bankacc.cmd.api" target="11" />
+      <module name="bankacc.core" target="11" />
+      <module name="bankacc.query.api" target="11" />
+      <module name="user-management" target="1.5" />
+      <module name="user.cmd.api" target="11" />
+      <module name="user.core" target="11" />
+      <module name="user.oAuth2.0" target="11" />
+      <module name="user.query.api" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
+      <module name="bankacc.cmd.api" options="-parameters" />
+      <module name="bankacc.core" options="-parameters" />
+      <module name="bankacc.query.api" options="-parameters" />
+      <module name="user.cmd.api" options="-parameters" />
+      <module name="user.core" options="-parameters" />
+      <module name="user.oAuth2.0" options="-parameters" />
+      <module name="user.query.api" options="-parameters" />
     </option>
   </component>
 </project>
