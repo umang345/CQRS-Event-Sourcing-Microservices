@@ -50,4 +50,4 @@ services:
 networks:
   default:
     external:
-      name: springbankNet
+      name: myNet
